@@ -1,0 +1,573 @@
+.block__sneakers{
+    background: url('../../images/bgSneakers.png');
+    background-position: center;
+    height: 900px;
+    background-repeat: no-repeat;
+    &-left{
+        padding-left: 83px;
+        padding-top: 120px;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    &-rotate{
+        margin-top: -32px;
+        margin-left: 74px;
+    }
+    &-inner{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .text-bg{
+        font-family: 'Montserrat';
+        font-weight: 900;
+        font-size: 128px;
+        color: white;
+        background: linear-gradient(#1d1d1d, rgba(68, 68, 68, 0.1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 160px;
+        left: 10px;
+        z-index: -1;
+    }
+    &-title{
+        font-family: 'Montserrat';
+        font-size: 46px;
+        font-weight: 700;
+        color: white;
+        max-width: 492px;
+        letter-spacing: 7px;
+        font-style: italic;
+    }
+    &-right{
+        margin-left: 90px;
+        padding-top: 80px;
+    }
+    &-info{
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 418px;
+        
+    }
+    &-price{
+        font-family: 'Montserrat';
+        font-size: 36px;
+        font-weight: 600;
+        color: white;
+    }
+    .bagBlock{
+        display: flex;
+        align-items: center;
+        
+    }
+    &-size{
+        display: flex;
+        align-items: center;
+        
+        span{
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+            margin-right: 12px;
+        }
+    }
+    
+}
+.color{
+    position: absolute;
+    left: -30px;
+    top: 211px;
+}
+.plusBlock{
+    padding: 16px;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    left: 300px;
+    top: 300px;
+}
+.plusBlock2{
+    padding: 16px;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    left: 621px;
+    top: 387px;
+    box-shadow: 0px 0px 4px #1B3559;
+}
+.btn{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    margin-right: 24px;
+}
+.dropdown-toggle::after{
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.dropdown-item{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+.details__btn{
+    padding: 18px;
+    display: inline-block;
+    padding-top: 18px;
+    padding-left: 16px;
+    padding-right: 48px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    border-radius: 40px;
+    border: 1px solid white;
+    position: relative;
+}
+.details__btn::after{
+    content: '';
+    position: absolute;
+    right: 15px;
+    width: 24px;
+    height: 24px;
+    top: 18px;
+    display: inline-block;
+    background: url('../../images/btn-rightArrow.png');
+}
+
+@media screen and (max-width:1200px) {
+    .block__sneakers{
+        margin-top: -25px;
+        background: url(../../images/bgSneakers.png);
+        background-position: bottom;
+        height: 711px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .text-bg{
+            font-size: 120px;
+        }
+    }
+    .block__sneakers-imgSneak{
+        width: 450px;
+    }
+    .color{
+        width: 100px;
+        top: 280px;
+    }
+    .block__sneakers{
+        &-rotate{
+            margin-top: -28px;
+            margin-left: 49px;
+            width: 420px;
+        }
+        &-left{
+            padding-left: 80px;
+            padding-top: 160px;
+        }
+        .plusBlock{
+            padding: 12px;
+            left: 230px;
+            top: 295px;
+        }
+        .plusBlock2{
+            padding: 12px;
+            left: 460px;
+            top: 350px;
+        }
+        &-right{
+            margin-left: 65px;
+        }
+        &-title{
+            font-size: 42px;
+        }
+        &-price{
+            font-size: 32px;
+        }
+    }
+    .btn{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .block__sneakers{
+        background: none;
+        height: 1150px;
+        &-inner{
+            flex-direction: column;
+        }
+        &-left{
+           padding-left: 0;
+           padding-right: 0;
+           margin-left: -50px;
+           padding-top: 100px;
+        }
+        &-rotate{
+            margin-top: -28px;
+            margin-left: 54px;
+            width: 567px;
+        }
+        &-right{
+            margin-left: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;flex-direction: column;
+        }
+        &-info{
+            width: 100%;
+        
+        }
+        &-title{
+            text-align: center;
+        }
+        .plusBlock{
+            top: 295px;
+        }
+        .plusBlock2{
+            left: 500px;
+            top: 380px;
+        }
+        .text-bg{
+            font-size: 114px;
+        }
+    }
+    .block__sneakers-imgSneak{
+        width: 100%;
+        
+    }
+
+}
+
+@media screen and (max-width:840px) {
+    .block__sneakers{
+        height: auto;
+        &-imgSneak{
+            width: 500px;
+        }
+        .text-bg{
+            display: none;
+        }
+        &-left{
+            width: 100%;
+            padding-top: 20px;
+            display: flex;
+            margin-left: -70px;
+            align-items: center;
+            justify-content: center;
+        }
+        .plusBlock{
+            padding: 10px;
+            top: 43%;
+            left: 40%;
+        }
+        &-right{
+            padding-top: 50px;
+            margin-left: 0;
+        }
+        .plusBlock2{
+            padding: 10px;
+            left: 70%;
+            top: 57%;
+        }
+        &-rotate{
+            margin-left: 90px;
+            width: 500px;
+        
+        }
+    }
+    .color{
+        top: 150px;
+    }
+}
+@media screen and (max-width:700px) {
+    .block__sneakers{
+        height: auto;
+        &-imgSneak{
+            width: 440px;
+        }
+        &-left{
+            width: 100%;
+            padding-top: 20px;
+            display: flex;
+            margin-left: -70px;
+            align-items: center;
+            justify-content: center;
+        }
+        &-title{
+            font-size: 38px;
+        }
+        &-price{
+            font-size: 30px;
+        }
+        &-info{
+            margin-top: 15px;
+        }
+        .plusBlock{
+            padding: 9px;
+            top: 40%;
+            left: 39%;
+        }
+        &-right{
+            padding-top: 50px;
+        }
+        .plusBlock2{
+            padding: 9px;
+            left: 71%;
+            top: 57%;
+        }
+        &-rotate{
+            margin-left: 90px;
+            width: 500px;
+        
+        }
+    }
+    .color{
+        top: 150px;
+    }
+    .btn{
+        font-size: 48px;
+    }
+}
+@media screen and (max-width:640px) {
+    
+    .color{
+        top: 150px;
+        width: 80px;
+    }
+    
+}
+@media screen and (max-width:575px) {
+    
+    .block__sneakers{
+        &-imgSneak{
+            width: 390px;
+        }
+        &-rotate{
+            width: 400px;
+        }
+        &-left{
+            margin-left: -40px;
+        }
+        &-title{
+            font-size: 34px;
+            letter-spacing: 3px;
+            max-width: 400px;
+        }
+        &-price{
+            font-size: 25px;
+        }
+        .btn{
+            font-size: 36px;
+            margin-right: 14px;
+            
+        }
+        .dropdown-toggle::after {
+            font-size: 26px;
+            margin-bottom: 10px;
+            margin-left: 0;
+        }
+        &-right{
+            width: 330px;
+        }
+        &-info{
+            margin-bottom: 15px;
+        }
+    }
+    .color{
+        top: 110px;
+    }
+    .details__btn {
+        padding: 10px;
+        padding-left: 16px;
+        font-size: 14px;
+        
+        padding-right: 37px;
+    }
+    .details__btn::after{
+        right: 14px;
+        width: 20px;
+        height: 20px;
+        top: 8px;
+    }
+}
+@media screen and (max-width:475px) {
+    
+    .block__sneakers{
+        &-imgSneak{
+            width: 340px;
+        }
+        &-rotate{
+            width: 340px;
+            margin-left: 40px;
+        }
+        &-left{
+            margin-left: -45px;
+            padding-top: 55px;
+        }
+        &-title{
+            font-size: 30px;
+            letter-spacing: 3px;
+            max-width: 400px;
+        }
+        &-price{
+            font-size: 22px;
+        }
+        .btn{
+            font-size: 32px;
+            margin-right: 14px;
+            
+        }
+        .dropdown-toggle::after {
+            font-size: 22px;
+            margin-bottom: 10px;
+            margin-left: 0;
+        }
+        &-right{
+            width: 330px;
+        }
+        &-info{
+            margin-bottom: 15px;
+        }
+        .plusBlock{
+            padding: 7px;
+            top: 41%;
+            left: 36%;
+        }
+        .plusBlock2{
+            padding: 7px;
+            left: 73%;
+            top: 61%;
+        }
+    }
+    .color{
+        top: 100px;
+        width: 70px;
+        left: -20px;
+    }
+    .details__btn {
+        padding: 10px;
+        padding-left: 16px;
+        font-size: 14px;
+        
+        padding-right: 37px;
+    }
+    .details__btn::after{
+        right: 14px;
+        width: 20px;
+        height: 20px;
+        top: 8px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .block__sneakers{
+        &-imgSneak{
+            width: 300px;
+        }
+        &-rotate{
+            width: 310px;
+            margin-left: 40px;
+        }
+        &-left{
+            margin-left: -45px;
+            padding-top: 55px;
+        }
+        &-title{
+            font-size: 30px;
+            letter-spacing: 3px;
+            max-width: 400px;
+        }
+        &-price{
+            font-size: 22px;
+        }
+        .btn{
+            font-size: 32px;
+            margin-right: 14px;
+            
+        }
+        .dropdown-toggle::after {
+            font-size: 22px;
+            margin-bottom: 10px;
+            margin-left: 0;
+        }
+        &-right{
+            width: 300px;
+        }
+        &-info{
+            margin-bottom: 15px;
+        }
+        .plusBlock{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6px;
+            top: 48%;
+            left: 36%;
+            img{
+                width: 20px;
+            }
+        }
+        .plusBlock2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6px;
+            left: 72%;
+            top: 65%;
+            img{
+                width: 20px;
+            }
+        }
+    }
+    .color{
+        top: 70px;
+        width: 60px;
+        left: -20px;
+    }
+    .details__btn {
+        padding: 10px;
+        padding-left: 16px;
+        font-size: 14px;
+        
+        padding-right: 37px;
+    }
+    .details__btn::after{
+        right: 14px;
+        width: 20px;
+        height: 20px;
+        top: 8px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .block__sneakers{
+        &-imgSneak{
+            width: 260px;
+        }
+        &-left{
+            margin-left: -35px;
+        }
+        &-rotate{
+            width: 260px;
+            margin-left: 30px;
+            margin-top: -15px;
+
+        }
+        &-right{
+            width: 280px;
+        }
+        &-title{
+            font-size: 26px;
+        }
+    }
+    .color{
+        top: 67px;
+        width: 55px;
+        left: -17px;
+    }
+}

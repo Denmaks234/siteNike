@@ -1,0 +1,214 @@
+.brends{
+    opacity: 0;
+    &__items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+        img{
+            margin-right: 80px;
+        }
+        .brends__img:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width:1390px) {
+    .brends{
+        &__items{
+            img{
+                width: 90px;
+                margin-right: 70px;
+            }
+        }
+    }
+}
+@media screen and (max-width:1270px) {
+    .brends{
+        &__items{
+            margin-top: 150px;
+            img{
+                width: 80px;
+                margin-right: 60px;
+            }
+        }
+    }
+}
+@media screen and (max-width:1100px) {
+    .brends{
+        &__items{
+            margin-top: 120px;
+            img{
+                width: 75px;
+                margin-right: 50px;
+            }
+        }
+    }
+}
+@media screen and (max-width:1000px) {
+    .brends{
+        &__items{
+            margin-top: 100px;
+            img{
+                width: 70px;
+                margin-right: 45px;
+            }
+        }
+    }
+}
+@media screen and (max-width:920px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 60px;
+                margin-right: 40px;
+            }
+        }
+    }
+}
+@media screen and (max-width:820px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 55px;
+                margin-right: 35px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:730px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 65px;
+                margin-right: 45px;
+            }
+        }
+    }
+    .brends__img:nth-child(1){
+        display: none;
+    }
+    .brends__img:nth-child(7){
+       margin-right: 0;
+    }
+    .brends__img:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width:660px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 55px;
+                margin-right: 35px;
+            }
+        }
+    }
+    .brends__img:nth-child(1){
+        display: none;
+    }
+    .brends__img:nth-child(7){
+       margin-right: 0;
+    }
+    .brends__img:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width:560px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 55px;
+                margin-right: 30px;
+            }
+        }
+    }
+    .brends__img:nth-child(1){
+        display: none;
+    }
+    .brends__img:nth-child(7){
+       margin-right: 0;
+    }
+    .brends__img:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width:500px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 55x;
+                margin-right: 20px;
+            }
+        }
+    }
+    .brends__img:nth-child(1){
+        display: none;
+    }
+    .brends__img:nth-child(7){
+       margin-right: 0;
+    }
+    .brends__img:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width:450px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 50px;
+                margin-right: 20px;
+            }
+        }
+    }
+    .brends__img:nth-child(1){
+        display: none;
+    }
+    .brends__img:nth-child(7){
+       margin-right: 0;
+    }
+    .brends__img:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width:410px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 55px;
+                margin-right: 30px;
+            }
+        }
+    }
+    .brends__img:nth-child(2){
+        display: none;
+    }
+    .brends__img:nth-child(7){
+       margin-right: 0;
+    }
+    .brends__img:nth-child(6){
+        display: none;
+    }
+}
+@media screen and (max-width:340px) {
+    .brends{
+        &__items{
+            margin-top: 50px;
+            img{
+                width: 50px;
+                margin-right: 25px;
+            }
+        }
+    }
+    
+}

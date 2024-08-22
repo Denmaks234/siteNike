@@ -1,0 +1,33 @@
+.advantages{
+    margin-top: 290px;
+    opacity: 0;
+    padding-bottom: 130px;
+    &__items{
+        display: flex;
+        padding-left: 81px;
+        align-items: center;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        margin-right: 140px;
+        &-title{
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+        }
+        p{
+            margin-bottom: 0;
+            margin-top: 8px;
+            text-transform: capitalize;
+            color: white;
+            font-size: 16px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+        }
+    }
+    &__block{
+        margin-left: 16px;
+    }
+}

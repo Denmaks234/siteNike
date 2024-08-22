@@ -1,0 +1,111 @@
+.footer__menu{
+    margin-right: 71px;
+    width: 190px;
+    margin-bottom: 50px;
+    &-title{
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+    &-link{
+        font-family: 'Montserrat';
+        font-weight: 100;
+        font-size: 16px;
+        
+        margin-bottom: 16px;
+        color: white;
+        display: block;
+    }
+}
+.footer__menu:nth-child(1){
+    width: 155px;
+}
+.footer__menu:nth-child(3){
+    width: 155px;
+}
+.footer__menu:nth-child(2){
+   margin-right: 40px;
+}
+.footer__menu:nth-child(4){
+    margin-right: 60px;
+}
+
+@media screen and (max-width:1325px) {
+    .footer__menu{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:870px) {
+    .footer__menu-title{
+        font-size: 16px;
+    }
+    .footer__menu-link{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:730px) {
+    .footer__menu-title{
+        font-size: 15px;
+    }
+    .footer__menu-link{
+        font-size: 13px;
+    }
+    .footer__menu{
+        width: 150px;
+        margin-right: 25px;
+    }
+    .footer__menu:nth-child(2) {
+        margin-right: 10px;
+    }
+    .footer__menu:nth-child(4) {
+        margin-right: 10px;
+    }
+    .footer__right-menus{
+        max-width: 390px;
+    }
+}
+@media screen and (max-width:600px) {
+    .footer__menu-title{
+        font-size: 20px;
+    }
+    .footer__menu-link{
+        font-size: 16px;
+    }
+    .footer__menu{
+        width: 190px;
+        margin-right: 50px;
+    }
+    .footer__menu:nth-child(2) {
+        margin-right: 0px;
+    }
+    .footer__menu:nth-child(4) {
+        margin-right: 0px;
+    }
+    .footer__right-menus{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:490px) {
+    .footer__menu-title{
+        font-size: 18px;
+    }
+    .footer__menu-link{
+        font-size: 14px;
+    }
+    .footer__menu{
+        width: 170px;
+        margin-right: 35px;
+    }
+    .footer__menu:nth-child(2) {
+        margin-right: 0px;
+    }
+    .footer__menu:nth-child(4) {
+        margin-right: 0px;
+    }
+    .footer__right-menus{
+        max-width: 100%;
+    }
+}

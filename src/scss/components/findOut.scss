@@ -1,0 +1,409 @@
+.findOut{
+    margin-top: 170px;
+    opacity: 0;
+    position: relative;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__header{
+        width: 600px;
+        display: flex;
+        position: relative;
+        &-leftImg{
+            position: absolute;
+            top: 155px;
+            left: -45px;
+        }
+        &-rightImg{
+            position: absolute;
+            left: 545px;
+        }
+    }
+    h1{
+        font-size: 64px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        max-width: 600px;
+        text-align: center;
+        color: white;
+    }
+    &__subtitle{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'Montserrat';
+        color: white;
+        padding-top: 80px;
+        line-height: 300%;
+        max-width: 1064px;
+        opacity: 0;
+    }
+    .findOutPhoto{
+        position: absolute;
+        left: 0;
+        top: 240px;
+        opacity: 0;
+        width: 420px;
+    }
+    &__btn{
+        padding: 18px;
+        display: inline-block;
+        padding-top: 18px;
+        padding-left: 16px;
+        padding-right: 48px;
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        border-radius: 40px;
+        border: 1px solid white;
+        position: relative;
+        opacity: 0;
+    }
+    
+    .findOut__btn::after{
+        content: '';
+        position: absolute;
+        right: 15px;
+        width: 24px;
+        height: 24px;
+        top: 18px;
+        display: inline-block;
+        background: url('../../images/btn-rightArrow.png');
+    }
+}
+
+@media screen and (max-width:1370px) {
+    .findOut .findOutPhoto{
+        width: 380px;
+        left: -30px;
+    }
+    .findOut{
+        &__subtitle{
+            max-width: 900px;
+        }
+    }
+}
+@media screen and (max-width:1180px) {
+    .findOut .findOutPhoto{
+        width: 350px;
+        top: 270px;
+    }
+    .findOut{
+        &__subtitle{
+            max-width: 820px;
+        }
+    }
+}
+@media screen and (max-width:1080px) {
+    .findOut .findOutPhoto{
+        width: 310px;
+        top: 300px;
+    }
+    .findOut{
+        &__subtitle{
+            max-width: 820px;
+        }
+    }
+}
+@media screen and (max-width:1024px) {
+    .findOut .findOutPhoto{
+        width: 280px;
+        top: 350px;
+    }
+    .findOut{
+        &__subtitle{
+            
+            padding-top: 40px;
+            font-size: 15px;
+        }
+    }
+}
+@media screen and (max-width:1024px) {
+    .findOut .findOutPhoto{
+        width: 250px;
+        top: 300px;
+    }
+    .findOut{
+        &__subtitle{
+            max-width: 750px;
+            padding-top: 40px;
+            font-size: 15px;
+            line-height: 240%;
+        }
+    }
+    .findOut  .findOut__btn{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:880px) {
+    .findOut .findOutPhoto{
+        width: 250px;
+        top: 300px;
+        display: none;
+    }
+    .findOut{
+        &__subtitle{
+            max-width: 750px;
+            padding-top: 40px;
+            font-size: 15px;
+            line-height: 240%;
+        }
+    }
+    .findOut  .findOut__btn{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:820px) {
+    .findOut{
+        margin-top: 120px;
+        &__subtitle{
+           padding-left: 20px;
+           padding-right: 20px;
+        }
+
+    }
+    .findOut  .findOut__btn{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:740px) {
+    
+    .findOut{
+        &__subtitle{
+           padding-left: 20px;
+           padding-right: 20px;
+        }
+        h1{
+            font-size: 55px;
+        }
+        &__header-rightImg{
+            bottom: 140px;
+            left: 500px;
+        }
+        &__header-leftImg{
+            top: 128px;
+            left: 45px;
+        }
+    }
+    .findOut .findOut__btn{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:640px) {
+    
+    .findOut{
+        margin-top: 100px;
+        &__subtitle{
+           font-size: 14px;
+           line-height: 220%;
+        }
+        h1{
+            font-size: 50px;
+        }
+        &__header-rightImg{
+            bottom: 132px;
+            left: 490px;
+            width: 55px;
+        }
+        &__header-leftImg{
+            top: 124px;
+            left: 75px;
+            width: 55px;
+        }
+    }
+    .findOut  .findOut__btn{
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .findOut  .findOut__btn::after{
+        right: 17px;
+        top: 18px;
+    }
+}
+@media screen and (max-width:590px) {
+    
+    .findOut{
+        margin-top: 100px;
+        &__subtitle{
+           font-size: 14px;
+           line-height: 220%;
+        }
+        h1{
+            font-size: 45px;
+        }
+        &__header{
+           width: 450px;
+        }
+        &__header-rightImg{
+            bottom: 122px;
+            width: 45px;
+            left: 390px;
+        }
+        &__header-leftImg{
+            top: 112px;
+            left: 33px;
+            width: 45px;
+        }
+    }
+    .findOut   .findOut__btn{
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .findOut  .findOut__btn::after{
+        right: 17px;
+        top: 18px;
+    }
+}
+@media screen and (max-width:540px) {
+    
+    .findOut{
+        margin-top: 100px;
+        &__subtitle{
+           font-size: 12px;
+           line-height: 200%;
+        }
+        h1{
+            font-size: 45px;
+        }
+        &__header{
+           width: 450px;
+        }
+        &__header-rightImg{
+            bottom: 122px;
+            width: 45px;
+            left: 390px;
+        }
+        &__header-leftImg{
+            top: 112px;
+            left: 33px;
+            width: 45px;
+        }
+    }
+    .findOut  .findOut__btn{
+        margin-top: 30px;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+    }
+    .findOut .findOut__btn::after{
+        right: 16px;
+        top: 10px;
+    }
+}
+@media screen and (max-width:480px) {
+    
+    .findOut{
+        margin-top: 100px;
+        &__subtitle{
+           font-size: 12px;
+           line-height: 200%;
+           padding-top: 30px;
+        }
+        h1{
+            font-size: 40px;
+        }
+        &__header{
+           width: 450px;
+        }
+        &__header-rightImg{
+            bottom: 109px;
+            width: 40px;
+            left: 375px;
+        }
+        &__header-leftImg{
+            top: 102px;
+            left: 50px;
+            width: 40px;
+        }
+    }
+    .findOut  .findOut__btn{
+        margin-top: 30px;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+    }
+    .findOut .findOut__btn::after{
+        right: 16px;
+        top: 10px;
+    }
+}
+@media screen and (max-width:450px) {
+    
+    .findOut{
+        margin-top: 70px;
+        &__subtitle{
+           font-size: 12px;
+           line-height: 200%;
+           padding-top: 30px;
+        }
+        h1{
+            font-size: 34px;
+        }
+        &__header{
+           width: 350px;
+        }
+        &__header-rightImg{
+            bottom: 93px;
+            width: 34px;
+            left: 303px;
+        }
+        &__header-leftImg{
+            top: 85px;
+            left: 30px;
+            width: 34px;
+        }
+    }
+    .findOut  .findOut__btn{
+        margin-top: 30px;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+    }
+    .findOut .findOut__btn::after{
+        right: 16px;
+        top: 10px;
+    }
+}
+@media screen and (max-width:350px) {
+    
+    .findOut{
+        margin-top: 70px;
+        &__subtitle{
+           font-size: 12px;
+           line-height: 200%;
+           padding-top: 30px;
+        }
+        h1{
+            font-size: 31px;
+        }
+        &__header{
+           width: 320px;
+        }
+        &__header-rightImg{
+            bottom: 85px;
+            width: 34px;
+            left: 276px;
+        }
+        &__header-leftImg{
+            top: 77px;
+            left: 20px;
+        }
+    }
+    .findOut  .findOut__btn{
+        margin-top: 30px;
+        font-size: 12px;
+        padding-top: 13px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+    }
+    .findOut .findOut__btn::after{
+        right: 16px;
+        top: 10px;
+    }
+}

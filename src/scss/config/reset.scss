@@ -26,26 +26,8 @@ aside {
 }
 
 html {
-	opacity: 0;
-	scroll-behavior: smooth;
-	transition: opacity 0.8s ease-in-out;
-
-	&.loaded {
-		opacity: 1;
-	}
-
-	&.lock {
-		touch-action: none;
-		overflow: hidden;
-
-		[data-lp] {
-			padding-inline-end: var(--bh-scrollbar-width, #{rem(16)});
-		}
-
-		.wrapper {
-			margin-inline-end: var(--bh-scrollbar-width, #{rem(16)});
-		}
-	}
+	opacity: 1;
+	overflow-x: hidden;
 }
 
 html,
@@ -56,15 +38,7 @@ body {
 }
 
 body {
-	overscroll-behavior: none;
-	line-height: var(--bs-line-height);
-	text-rendering: optimizelegibility;
-	text-size-adjust: 100%;
-	font-family: var(--bs-font-family);
-	font-size: var(--bs-font-size);
-	font-weight: var(--bs-font-weight);
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
+	background: #000;
 }
 
 input,
@@ -103,6 +77,8 @@ a {
 
 	&:hover {
 		text-decoration: none;
+		color: rgb(128, 128, 128);
+		border: 1px solid rgb(128, 128, 128);
 	}
 
 	&:focus,

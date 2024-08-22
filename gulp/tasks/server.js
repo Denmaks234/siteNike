@@ -10,6 +10,7 @@ const server = (instance) => {
     notify: true,
     open: false,
     reloadOnRestart: true,
+    tunnel:true,
     port: 3000,
   });
 };

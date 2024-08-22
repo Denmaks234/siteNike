@@ -1,0 +1,233 @@
+.modern__shoes{
+    margin-top: 160px;
+    opacity: 0;
+    &-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 102px;
+        padding-right: 145px;
+    }
+    &-left{
+        position: relative;
+    }
+    .box{
+        width: 300px;
+        height: 300px;
+        background: #860101bc;
+        border-radius: 20px;
+        
+    }
+    .box-blur{
+        width: 380px;
+        height: 350px;
+        position: absolute;
+        top: -25px;
+        left: -40px;
+        background: #920505bc;
+        border-radius: 20px;
+        filter: blur(90px);
+    }
+    .shoes__img{
+        position: absolute;
+        z-index: 1000;
+        left: -35px;
+        top: 20px;
+    }
+    &-title{
+        font-family: 'Montserrat';
+        font-size: 60px;
+        font-weight: 600;
+        color: white;
+    }
+    &-subtitle{
+        margin-top: 24px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        color: white;
+        margin-bottom: 40px;
+        max-width: 590px;
+    }
+    &-right{
+        padding-left: 160px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .modern__shoes-wrapper{
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width:1140px) {
+    .modern__shoes{
+        .shoes__img{
+            width: 330px;
+        }
+        .box{
+            width: 260px;
+             height: 260px;
+        }
+        .box-blur{
+            width: 330px;
+        }
+        &-right{
+            padding-left: 115px;
+        }
+        &-title{
+            font-size: 52px;
+        }
+    }
+}
+@media screen and (max-width:1140px) {
+    .modern__shoes{
+        margin-top: 100px;
+        &-wrapper{
+            padding-left: 40px;
+            flex-direction: column;
+        }
+        .shoes__img{
+            width: 330px;
+        }
+        .box{
+            width: 260px;
+             height: 260px;
+        }
+        .box-blur{
+            width: 330px;
+        }
+        &-right{
+            padding-left: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &-title{
+            max-width: 600px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        &-subtitle{
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:660px) {
+    .modern__shoes{
+        margin-top: 100px;
+        &-wrapper{
+            padding-left: 40px;
+            flex-direction: column;
+        }
+        .shoes__img{
+            width: 280px;
+        }
+        .box{
+            width: 215px;
+            height: 215px;
+        }
+        .box-blur{
+            width: 330px;
+        }
+        &-right{
+            padding-left: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &-title{
+            max-width: 500px;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 42px;
+        }
+        &-subtitle{
+            text-align: center;
+            font-size: 15px;
+            max-width: 500px;
+        }
+    }
+}
+@media screen and (max-width:545px) {
+    .modern__shoes{
+        margin-top: 100px;
+        &-wrapper{
+            padding-left: 40px;
+            flex-direction: column;
+        }
+        .shoes__img{
+            width: 240px;
+            left: -30px;
+            top: 20px;
+        }
+        .box{
+            width: 180px;
+            height: 180px;
+        }
+        .box-blur{
+            width: 330px;
+        }
+        &-right{
+            padding-left: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &-title{
+            max-width: 400px;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 35px;
+        }
+        &-subtitle{
+            text-align: center;
+            font-size: 14px;
+            max-width: 350px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+    }
+}
+@media screen and (max-width:400px) {
+    .modern__shoes{
+        margin-top: 100px;
+        &-wrapper{
+            padding-left: 40px;
+            flex-direction: column;
+        }
+        .shoes__img{
+            width: 240px;
+            left: -30px;
+            top: 20px;
+        }
+        .box{
+            width: 180px;
+            height: 180px;
+        }
+        .box-blur{
+            width: 270px;
+            top: -78px;
+        }
+        &-right{
+            padding-left: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        &-title{
+            max-width: 300px;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 32px;
+        }
+        &-subtitle{
+            text-align: center;
+            font-size: 14px;
+            max-width: 350px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+    }
+}

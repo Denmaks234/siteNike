@@ -1,11 +1,24 @@
 <header class="header" data-lp>
-	<div class="header__container">
-		<a href="#" class="header__logo logo"></a>
-		<nav class="header__menu menu">
-			<ul class="menu__list">
-				<li class="menu__item"><a href="#" class="menu__link">Link</a></li>
-			</ul>
-		</nav>
-		<!-- @@include('./icon-menu.html', {}) -->
+	<div class="container">
+		<div class="header__inner">
+			<div class="header__left">
+				<div class="header__menu-btn">
+					<ul class="burger__menu">
+						<li class="el"></li>
+						<li class="el"></li>
+						<li class="el"></li>
+					</ul>
+				</div>
+				@@include('menu.html')
+			</div>
+			<div class="header__center">
+				<img src="../images/logo.svg" alt="" class="logo">
+			</div>
+			<div class="header__right">
+				<img  src="../images/search.svg" alt="" class="header__right-img">
+				<img src="../images/account.svg" alt="" class="header__right-img">
+				<img src="../images/shopping-bag.svg" alt="" class="header__right-img">
+			</div>
+		</div>
 	</div>
 </header>

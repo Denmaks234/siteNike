@@ -1,0 +1,37 @@
+.slider__item{
+    width: 320px;
+    height: 195px;
+    border: 2px solid white;
+    position: relative;
+    &-title{
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 115px;
+        margin-left: 32px;
+    }
+    &-img{
+        position: absolute;
+        top: -50px;
+        left: 15px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .slider__item-title{
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:740px) {
+    .slider__item-title{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:375px) {
+    .slider__item-title{
+        margin-top: 100px;
+    }
+}

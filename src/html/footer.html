@@ -1,5 +1,70 @@
 <footer class="footer">
   <div class="footer__container">
-    
+      <div class="footer__left">
+        <h1 class="footer__title">Let’s stay in touch</h1>
+        <div class="footer__email">
+          <input class="footer__input" type="text" placeholder="Enter email..." >
+          <button class="footer__btn-subscr">Subscribe</button>
+        </div>
+        <img class="logo" src="../images/footerLogo.png" alt="">
+      </div>
+      <div class="footer__right">
+          <div class="footer__right-menus">
+            @@include('footerMenu.html',{
+              title:'SHOP',
+              link1:'Mens',
+              link2:'Womens',
+              link3:'New Arrival',
+            })
+            @@include('footerMenu.html',{
+              title:'OUR SERVICES',
+              link1:'Customize your products',
+              link2:'Gift Card',
+              link3:'Maintain & Repair',
+            })
+
+            @@include('footerMenu.html',{
+              title:'CONTACT US',
+              link1:'Find a Store',
+              link2:'Contact Us',
+              link3:'Terms & Conditions',
+            })
+            @@include('footerMenu.html',{
+              title:'OUR ENTERPRISE',
+              link1:'Who are we?',
+              link2:'Press and news',
+              link3:'Our alliances',
+            })
+          </div>
+          <div class="footer__menu" style="margin-right: 0px;">
+            <h3 class="footer__menu-title">NEED HELP ?</h3>
+            <a href="#" class="footer__menu-link">My Account</a>
+            <a href="#" class="footer__menu-link">Shipping</a>
+            <a href="#" class="footer__menu-link">Return & Exchanges</a>
+            <a href="#" class="footer__menu-link">FAQs</a>
+            <a href="#" class="footer__menu-link">Rewards</a>
+            <a href="#" class="footer__menu-link">Loyalty program</a>
+            <a href="#" class="footer__menu-link">How to choose your product?</a>
+            <a href="#" class="footer__menu-link">Sports Trends</a>
+        </div>
+      </div>
+  </div>
+  <div class="footer__copyright">
+    <h3 class="footer__copyright-title">2022 Nike, Inc. All Rights Reserved
+      ©</h3>
+    <div class="footer__copyright-links">
+      <a href="#" class="footer__copyright-link">
+        <img src="../images/youtube.svg" alt="" class="footer__copyright-img">
+      </a>
+      <a href="#" class="footer__copyright-link">
+        <img src="../images/fb.svg" alt="" class="footer__copyright-img">
+      </a>
+      <a href="#" class="footer__copyright-link">
+        <img src="../images/twitter.svg" alt="" class="footer__copyright-img">
+      </a>
+      <a href="#" class="footer__copyright-link">
+        <img src="../images/inst.svg" alt="" class="footer__copyright-img">
+      </a>
+    </div>
   </div>
 </footer>

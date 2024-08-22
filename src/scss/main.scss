@@ -1,52 +1,96 @@
-@use "sass:math";
 
-/**
-* Подключение шрифтов локально из папки "./src/fonts"
-*/
-@import "config/fonts";
-
-/** Подключение переменных */
-@import "config/root";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "config/vars";
-
-/**
-* Подключение sass function и mixins и extends стилей
-*/
-@import "config/functions";
 @import "config/mixins";
-@import "config/placeholders";
-
-/** Обнуление */
 @import "config/reset";
-
-/**
-* Библиотеки
-* раскомментировать для использования
-*/
-// @import 'libs/aos';
-// @import 'libs/swiper';
-
-/**
-* Подключение custom scrollbar для всего сайта
-*/
-@import "config/scrollbar";
-
-/**
-* Общие параметры, шаблоны(заготовки) и вспомогательные классы
-*/
-@import "config/base";
-
-/**
-* БЕМ блоки используемые во всё проекте
-*/
-@import "config/common";
-
-/**
-* Подключение стилей отдельных блоков и секций
-*/
 @import "components/header";
-@import "components/popup";
-@import "components/checkbox";
-@import "components/tabs";
-@import "components/accordion";
 @import "components/footer";
+@import "components/menu";
+@import "components/blockSneakers";
+@import "components/sliderItem";
+@import "components/sliderBlock";
+@import "components/findOut";
+@import "components/bestSellers";
+@import "components/sportTimeItem";
+@import "components/sportTime";
+@import "components/modernShoes";
+@import "components/favourites";
+@import "components/favouriteItem";
+@import "components/brends";
+@import "components/bestPeopleBlock";
+@import "components/visionaries";
+@import "components/joinUs";
+@import "components/advantages";
+@import "components/footerMenu";
+html{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1352px;
+    margin: 0 auto;
+
+}
+.page{
+    overflow-x: hidden;
+    .flash{
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+
+
+    .swiper {
+        width: 1070px;
+       &-wrapper{
+        padding-top: 30px;
+       }
+      }
+@media screen and (max-width:1200px) {
+    .swiper{
+        width: 1060px;
+        
+    }
+}
+@media screen and (max-width:1170px) {
+    .swiper{
+        width: 930px;
+        
+    }
+}
+@media screen and (max-width:1000px) {
+    .swiper{
+        width: 710px;
+        padding-left: 40px;
+        
+    }
+    .swiper-wrapper{
+        padding-top: 70px;
+    }
+}
+@media screen and (max-width:840px) {
+    .swiper{
+        width: 710px;
+        padding-left: 40px;
+        
+    }
+    .swiper-wrapper{
+        padding-top: 240px;
+    }
+}
+@media screen and (max-width:740px) {
+    .swiper{
+        width: 330px;
+        padding-left: 5px;
+        
+    }
+    .swiper-wrapper{
+        padding-top: 240px;
+    }
+}
+@media screen and (max-width:375px) {
+    .swiper{
+        width: 280px;
+    }
+}
